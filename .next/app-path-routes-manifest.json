@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/api/auth/%5B...nextauth%5D/route": "/api/auth/%5B...nextauth%5D",
+  "/api/health/route": "/api/health",
+  "/api/budget-analysis/route": "/api/budget-analysis",
+  "/api/meal-generation/route": "/api/meal-generation",
+  "/api/grocery-generation/route": "/api/grocery-generation",
+  "/api/saved-plans/route": "/api/saved-plans",
+  "/api/session/route": "/api/session",
+  "/api/user-preferences/route": "/api/user-preferences",
+  "/login/page": "/login",
+  "/page": "/"
+}

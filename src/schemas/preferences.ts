@@ -13,11 +13,9 @@ export const userPreferencesSchema = z.object({
   dailySchedule: z.string().min(5, {
     message: "Please describe your daily schedule (at least 5 characters).",
   }),
-  fitnessGoal: z.enum(["Weight Loss", "Muscle Gain", "Maintenance", "Athletic Performance"], {
-    errorMap: () => ({ message: "Please select a valid fitness goal." }),
-  }),
-  dietaryRestrictions: z.array(z.string()).default([]),
-  allergies: z.array(z.string()).default([]),
+  fitnessGoal: z.enum(["Weight Loss", "Muscle Gain", "Maintenance", "Athletic Performance"]),
+  dietaryRestrictions: z.array(z.string()),
+  allergies: z.array(z.string()),
   cuisinePreference: z.array(z.string()).min(1, {
     message: "Please select at least one cuisine preference.",
   }),
@@ -27,9 +25,7 @@ export const userPreferencesSchema = z.object({
   numberOfPeople: z.number().int().positive().min(1, {
     message: "Number of people must be at least 1.",
   }),
-  cookingSkillLevel: z.enum(["Beginner", "Intermediate", "Advanced"], {
-    errorMap: () => ({ message: "Please select a valid cooking skill level." }),
-  }),
+  cookingSkillLevel: z.enum(["Beginner", "Intermediate", "Advanced"]),
   availableCookingTime: z.number().int().min(5, {
     message: "Available cooking time must be at least 5 minutes.",
   }),
