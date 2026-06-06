@@ -1,93 +1,50 @@
 {
   "pages": {
-    "/_not-found/page": [
-      "static/chunks/webpack-ab1ffd19249b889e.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-98a0bdaa30757bda.js",
-      "static/chunks/main-app-df7676abbfb0fe59.js",
-      "static/chunks/app/_not-found/page-faad336ffa7374de.js"
-    ],
     "/layout": [
-      "static/chunks/webpack-ab1ffd19249b889e.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-98a0bdaa30757bda.js",
-      "static/chunks/main-app-df7676abbfb0fe59.js",
-      "static/css/e8982cbf0a0204a8.css",
-      "static/chunks/347-e44caf17824569a0.js",
-      "static/chunks/app/layout-ad7f09adec4a570c.js"
-    ],
-    "/api/auth/%5B...nextauth%5D/route": [
-      "static/chunks/webpack-ab1ffd19249b889e.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-98a0bdaa30757bda.js",
-      "static/chunks/main-app-df7676abbfb0fe59.js",
-      "static/chunks/app/api/auth/%5B...nextauth%5D/route-dd2e7b7543be9df4.js"
-    ],
-    "/api/health/route": [
-      "static/chunks/webpack-ab1ffd19249b889e.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-98a0bdaa30757bda.js",
-      "static/chunks/main-app-df7676abbfb0fe59.js",
-      "static/chunks/app/api/health/route-dd2e7b7543be9df4.js"
-    ],
-    "/api/budget-analysis/route": [
-      "static/chunks/webpack-ab1ffd19249b889e.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-98a0bdaa30757bda.js",
-      "static/chunks/main-app-df7676abbfb0fe59.js",
-      "static/chunks/app/api/budget-analysis/route-dd2e7b7543be9df4.js"
-    ],
-    "/api/meal-generation/route": [
-      "static/chunks/webpack-ab1ffd19249b889e.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-98a0bdaa30757bda.js",
-      "static/chunks/main-app-df7676abbfb0fe59.js",
-      "static/chunks/app/api/meal-generation/route-dd2e7b7543be9df4.js"
-    ],
-    "/api/grocery-generation/route": [
-      "static/chunks/webpack-ab1ffd19249b889e.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-98a0bdaa30757bda.js",
-      "static/chunks/main-app-df7676abbfb0fe59.js",
-      "static/chunks/app/api/grocery-generation/route-dd2e7b7543be9df4.js"
-    ],
-    "/api/saved-plans/route": [
-      "static/chunks/webpack-ab1ffd19249b889e.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-98a0bdaa30757bda.js",
-      "static/chunks/main-app-df7676abbfb0fe59.js",
-      "static/chunks/app/api/saved-plans/route-dd2e7b7543be9df4.js"
-    ],
-    "/api/session/route": [
-      "static/chunks/webpack-ab1ffd19249b889e.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-98a0bdaa30757bda.js",
-      "static/chunks/main-app-df7676abbfb0fe59.js",
-      "static/chunks/app/api/session/route-dd2e7b7543be9df4.js"
-    ],
-    "/api/user-preferences/route": [
-      "static/chunks/webpack-ab1ffd19249b889e.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-98a0bdaa30757bda.js",
-      "static/chunks/main-app-df7676abbfb0fe59.js",
-      "static/chunks/app/api/user-preferences/route-dd2e7b7543be9df4.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/login/page": [
-      "static/chunks/webpack-ab1ffd19249b889e.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-98a0bdaa30757bda.js",
-      "static/chunks/main-app-df7676abbfb0fe59.js",
-      "static/chunks/347-e44caf17824569a0.js",
-      "static/chunks/app/login/page-0d1e3e6a646c4afc.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/login/page.js"
+    ],
+    "/api/auth/[...nextauth]/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/auth/[...nextauth]/route.js"
     ],
     "/page": [
-      "static/chunks/webpack-ab1ffd19249b889e.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-98a0bdaa30757bda.js",
-      "static/chunks/main-app-df7676abbfb0fe59.js",
-      "static/chunks/347-e44caf17824569a0.js",
-      "static/chunks/499-e73dcfd81474bf63.js",
-      "static/chunks/app/page-77e3eeab1b80b665.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
+    "/api/user-preferences/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/user-preferences/route.js"
+    ],
+    "/api/saved-plans/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/saved-plans/route.js"
+    ],
+    "/api/meal-generation/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/meal-generation/route.js"
+    ],
+    "/api/grocery-generation/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/grocery-generation/route.js"
+    ],
+    "/api/budget-analysis/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/budget-analysis/route.js"
     ]
   }
 }

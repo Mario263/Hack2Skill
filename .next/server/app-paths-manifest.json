@@ -1,14 +1,11 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/api/auth/%5B...nextauth%5D/route": "app/api/auth/%5B...nextauth%5D/route.js",
-  "/api/health/route": "app/api/health/route.js",
-  "/api/budget-analysis/route": "app/api/budget-analysis/route.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/user-preferences/route": "app/api/user-preferences/route.js",
+  "/api/saved-plans/route": "app/api/saved-plans/route.js",
   "/api/meal-generation/route": "app/api/meal-generation/route.js",
   "/api/grocery-generation/route": "app/api/grocery-generation/route.js",
-  "/api/saved-plans/route": "app/api/saved-plans/route.js",
-  "/api/session/route": "app/api/session/route.js",
-  "/api/user-preferences/route": "app/api/user-preferences/route.js",
+  "/api/budget-analysis/route": "app/api/budget-analysis/route.js",
   "/login/page": "app/login/page.js",
   "/page": "app/page.js"
 }

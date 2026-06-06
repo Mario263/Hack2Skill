@@ -16,19 +16,17 @@ import {
 
 export default function DashboardPage() {
   const { data: session, status } = useSession();
-  const {
-    preferences,
-    setPreferences,
-    activeMealPlan,
-    setActiveMealPlan,
-    activeGroceryList,
-    setActiveGroceryList,
-    toggleGroceryItem,
-    isGenerating,
-    setIsGenerating,
-    error,
-    setError,
-  } = useAppStore();
+  const preferences = useAppStore((state) => state.preferences);
+  const setPreferences = useAppStore((state) => state.setPreferences);
+  const activeMealPlan = useAppStore((state) => state.activeMealPlan);
+  const setActiveMealPlan = useAppStore((state) => state.setActiveMealPlan);
+  const activeGroceryList = useAppStore((state) => state.activeGroceryList);
+  const setActiveGroceryList = useAppStore((state) => state.setActiveGroceryList);
+  const toggleGroceryItem = useAppStore((state) => state.toggleGroceryItem);
+  const isGenerating = useAppStore((state) => state.isGenerating);
+  const setIsGenerating = useAppStore((state) => state.setIsGenerating);
+  const error = useAppStore((state) => state.error);
+  const setError = useAppStore((state) => state.setError);
 
   const [activeTab, setActiveTab] = useState<"preferences" | "mealplan" | "groceries" | "budget" | "saved">("preferences");
   const [budgetReport, setBudgetReport] = useState<BudgetAndSubstitutionReport | null>(null);

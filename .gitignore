@@ -1,3 +1,11 @@
 node_modules
 .env
 .vercel
+setuo-env.ps1
+.agents
+.claude
+.goose
+.next
+.vercel
+cooking-todo
+package.json

@@ -44,12 +44,13 @@ export default function PreferencesForm({ onSubmit, isLoading }: PreferencesForm
     },
   });
 
-  const formValues = watch();
-
   // Save drafts to Zustand store on change
   useEffect(() => {
-    updatePreferencesDraft(formValues);
-  }, [formValues, updatePreferencesDraft]);
+    const subscription = watch((value) => {
+      updatePreferencesDraft(value as Partial<UserPreferencesInput>);
+    });
+    return () => subscription.unsubscribe();
+  }, [watch, updatePreferencesDraft]);
 
   const selectedDiets = watch("dietaryRestrictions") || [];
   const selectedCuisines = watch("cuisinePreference") || [];
